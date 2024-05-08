@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: rgb(113, 113, 113);
+    height: 100vh;
+    overflow: hidden;
+}

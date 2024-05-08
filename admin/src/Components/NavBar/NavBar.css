@@ -1,0 +1,29 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px -2px #000;
+  padding: 16px 60px;
+  margin-bottom: 1px;
+  background-color: rgb(205, 154, 254);
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav-logo {
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+}
+
+@media (max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width: 170px ;
+    }
+    .nav-profile{
+        width: 95px;
+    }
+}
